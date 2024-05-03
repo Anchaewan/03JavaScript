@@ -1,0 +1,22 @@
+.pictures {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50vw;
+  /* vw : Viewport Width (보이는대로) */
+  padding: 20px;
+  gap: 10px;
+  .bigsize {
+    grid-column: 1/5;
+  }
+  button {
+    &.--active {
+      border: 5px solid seagreen;
+    }
+  }
+  img {
+    width: 100%;
+    /* aspect-ratio: 1/1; 가로/세로 같은비율로 맞추는 법(종횡비) */
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/swiper.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/swiper.js" defer></script>
+    <title>Swiper</title>
+  </head>
+  <body>
+    <div class="swiper slide-visual">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">
+          <div class="txt1">첫번째 텍스트</div>
+          <div class="txt2">두번째 텍스트</div>
+          <div class="txt3">세번째 텍스트</div>
+        </div>
+        <div class="swiper-slide">Slide 3</div>
+      </div>
+    </div>
+    <button class="slide-visual__next">다음</button>
+    <button class="slide-visual__prev">이전</button>
+    <div class="swiper slide-main">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+      </div>
+      <div class="slide-main__paging"></div>
+    </div>
+  </body>
+</html>
